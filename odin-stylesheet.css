@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	
+	}
+	/*HEADER*/
+.header-line{
+	display: flex;
+	justify-content: space-between;
+	background-color: #1f2937;
+	align-items: center;
+	padding:15px 300px;
+}
+.header-links-box{
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+	gap: 15px;
+	align-items: center;
+	
+}
+.header-logo{
+	align-content: center;
+	width: 200px;
+	color: white;
+	font-size: 20px;
+	}
+.header-link1, .header-link2, .header-link3{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/*FIRST-BOX*/
+
+.first-box{
+	display: flex;
+	background-color: #1f2937;
+	padding:50px 300px;
+	gap: 100px;
+}
+.first-box-child1 h1{
+	font-size: 48px;
+	font-weight: bolder;
+	color: #F9FAF8;
+}
+.first-box-child1 p{
+	font-size: 18px;
+	color: #e5e7eb;
+	}
+.first-box-child1 a{
+	text-decoration: none;
+	color: white;
+	background-color: #3882f6;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 24px;
+}
+.img-not{
+	width: 750px;
+	height: 400px;
+}
+
+/*SECOND-BOX*/
+
+.second-box h1{
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1F2937;
+	text-align: center;
+}
+.second-box-child1{
+	display: flex;
+	padding: 20px 300px 0 300px;
+	gap: 30px;
+	justify-content: center;
+}
+
+.second-box-grandchild1{
+	border: 2px solid blue;
+	border-radius: 5px;
+	width: 150px;
+	height: 140px;
+}
+.second-box-child2{
+	display: flex;
+	padding: 0 300px;
+	gap: 34px;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+.second-box-grandchild2{
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	width: 150px;
+
+/*THIRD-BOX*/
+}
+.third-box{
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	padding: 100px 535px;
+}
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+	margin-left: 35px;
+	
+}
+.signature {
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+/*FOURTH-BOX*/
+
+.fourth-box{
+	padding: 90px 300px;
+}
+.fourth-box-child1{
+	background-color: #3882f6;
+	padding: 40px 280px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	align-items: center;
+}
+.first-quote{
+	font-size: 20px;
+	color: white;
+}
+.second-quote{
+	font-size: 17px;
+	color: whitesmoke;
+}
+.fourth-box-grandchild2 a{
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	border-radius: 6px;
+	font-size: 20px;
+	padding: 10px 30px;
+	font-weight: bolder;
+}
+
+/*FOOTER*/
+.footer-line{
+	background-color: #1f2937;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	padding: 20px;
+}
